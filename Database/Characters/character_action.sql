@@ -25,16 +25,3 @@ CREATE TABLE `character_action` (
   `type` tinyint(3) unsigned NOT NULL DEFAULT '0',
   PRIMARY KEY (`guid`,`button`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Player System';
-
--- ----------------------------
--- Records of character_action
--- ----------------------------
-INSERT INTO `character_action` VALUES ('1', '11', '4540', '128');
-INSERT INTO `character_action` VALUES ('1', '72', '6603', '0');
-INSERT INTO `character_action` VALUES ('1', '73', '78', '0');
-INSERT INTO `character_action` VALUES ('1', '83', '4540', '128');
-INSERT INTO `character_action` VALUES ('2', '11', '4540', '128');
-INSERT INTO `character_action` VALUES ('2', '72', '6603', '0');
-INSERT INTO `character_action` VALUES ('2', '73', '78', '0');
-INSERT INTO `character_action` VALUES ('2', '74', '20580', '0');
-INSERT INTO `character_action` VALUES ('2', '83', '4540', '128');
